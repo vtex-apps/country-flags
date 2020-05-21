@@ -429,10 +429,7 @@ export function loadFlag(countryCode?: string): React.ReactElement | null {
   }
 
   if (typeof window === 'undefined') {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires, global-require
-    const Flag = require(`./icons/${countryCode}`)
-
-    return <Flag />
+    return <div style={{ height: 24, width: 24 }} />
   }
 
   const Flag = flagMap[countryCode]
