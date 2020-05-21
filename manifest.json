@@ -1,0 +1,11 @@
+{
+  "vendor": "vtex",
+  "name": "country-flags",
+  "version": "0.0.0",
+  "builders": {
+    "docs": "0.x",
+    "messages": "1.x",
+    "react": "3.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
