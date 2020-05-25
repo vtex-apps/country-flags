@@ -221,11 +221,15 @@ export function loadFlag(countryCode?: CountryCode): React.ReactElement | null {
     return null
   }
 
+  const Flag = flagMap[countryCode]
+
+  if (!Flag) {
+    return null
+  }
+
   if (typeof window === 'undefined') {
     return <div style={{ height: 24, width: 24 }} />
   }
-
-  const Flag = flagMap[countryCode]
 
   return (
     <Suspense fallback={<div style={{ height: 24, width: 24 }} />}>
