@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/node@^14.0.4":
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.4.tgz#43a63fc5edce226bed106b31b875165256271107"
+  integrity sha512-k3NqigXWRzQZVBDS5D1U70A5E8Qk4Kh+Ha/x4M8Bt9pF0X05eggfnC9+63Usc9Q928hRUIpIhTQaXsZwZBl4Ew==
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -14,6 +19,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+country-iso-2-to-3@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/country-iso-2-to-3/-/country-iso-2-to-3-1.1.0.tgz#219379033763abf86e96845317ae9be145aae850"
+  integrity sha512-+xaB6XPuuLuSQEjejWXjff7s5AMyisPk3jBmIqM7aymup79mEcinNkUiIpe4VedSPWCT+/bMW/EDJvRaiDaWKw==
 
 csstype@^2.2.0:
   version "2.6.10"
