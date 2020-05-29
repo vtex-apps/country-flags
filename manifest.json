@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "country-flags",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "builders": {
     "docs": "0.x",
     "react": "3.x"
