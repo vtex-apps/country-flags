@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UNK: React.FC = () => (
+const XKX: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -39,4 +39,4 @@ const UNK: React.FC = () => (
   </svg>
 )
 
-export default UNK
+export default XKX
