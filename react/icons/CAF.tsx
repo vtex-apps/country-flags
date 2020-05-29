@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RCA: React.FC = () => (
+const CAF: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -24,4 +24,4 @@ const RCA: React.FC = () => (
   </svg>
 )
 
-export default RCA
+export default CAF
