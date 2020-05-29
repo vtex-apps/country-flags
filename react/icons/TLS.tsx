@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TMP: React.FC = () => (
+const TLS: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -28,4 +28,4 @@ const TMP: React.FC = () => (
   </svg>
 )
 
-export default TMP
+export default TLS

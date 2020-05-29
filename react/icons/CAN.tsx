@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CDN: React.FC = () => (
+const CAN: React.FC = () => (
   <svg
     width="24"
     height="24"
@@ -26,4 +26,4 @@ const CDN: React.FC = () => (
   </svg>
 )
 
-export default CDN
+export default CAN
