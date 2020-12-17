@@ -1,8 +1,8 @@
-📢 Use this project, [contribute](https://github.com/{OrganizationName}/{AppName}) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+📢 Use this project, [contribute](https://github.com/vtex-apps/country-flags) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-# VTEX COUNTRY FLAGS
+# Country Flags
 
-⚠️ **This is an ongoing, unsupported, unfinished and undocumented project. We do not guarantee any results after installation.** ⚠️
+> :warning: *Although ready to be installed, the Country Flags app is currently an **open-beta project**. Bear in mind that due to that status, you can expect an accelerated state of evolution.*
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -11,7 +11,7 @@
 <!-- DOCS-IGNORE:end -->
 
 
-This component receives the country code and renders that respective country's flag in SVG.
+The Country Flags app provides flags in SVG icons to be displayed according to the countries' ISO code.
 
 ## Configuration 
 
@@ -39,7 +39,7 @@ const Component = () => {
 
 ## Customization
 
-TBC
+No CSS Handles are available yet for the app customization.
 
 ## Contributors ✨
 
