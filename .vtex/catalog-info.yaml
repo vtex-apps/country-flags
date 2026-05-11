@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: country-flags
+  description: Componente React que renderiza bandeiras de países como ícones SVG.
+  tags:
+    - javascript
+    - react
+  annotations:
+    vtex.com/janus-acronym: ""
+    vtex.com/o11y-os-index: ""
+    grafana/dashboard-selector: ""
+    github.com/project-slug: vtex-apps/country-flags
+    vtex.com/platform-flow-id: Shopper#4
+    backstage.io/techdocs-ref: dir:../
+    vtex.com/application-id: D9ZRML2A
+spec:
+  system: checkout
+  lifecycle: stable
+  owner: te-0001
+  type: library
+  dependsOn: []
